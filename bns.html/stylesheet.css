@@ -1,0 +1,251 @@
+@font-face {
+    font-family:bns;
+    src: url(astonpoliz-sans-serif-font-1709460390-0/Astonpoliz-BF65a23d18906b0.ttf);
+  
+   }
+   html {
+    scroll-behavior: smooth;
+  }
+  .logo {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+
+    left: -845px;
+  }
+    .logo a:hover img{
+
+        transform: scale(1.1);
+    }
+    .dropdown-item{
+      padding: 5px;
+    }
+    .brand ul li {
+                   
+        display: inline-block;
+        margin: 50px;
+        
+    }
+    .brand{
+            display: grid;
+            place-items:center;
+        
+    }
+    .brand ul li a:hover img {
+        transform: scale(1.1); /* Scale up the image on hover */
+    }
+    .shopbox ul li{
+      
+        display: inline-block;
+        margin: 300px;
+    }
+    .shopbox{
+        
+        display: grid;
+            place-items:center;
+    }
+    .Menu{
+        display: grid;
+            place-items:center;
+      
+          position: relative;
+          right: -7px;
+    }
+    .shopbox {
+display: flex;
+justify-content: center;
+}
+
+    .shopbox {
+        text-align: center; /* Center the content horizontally */
+        
+    }
+
+    .shopbox ul {
+        list-style-type: none;
+        
+        margin: 0;
+        
+    }
+
+    .shopbox ul li {
+        display: inline-block; /* Display list items inline */
+        margin: 40px 50px; /* Adjust spacing between items as needed */
+        
+    }
+
+    .shopbox ul li:nth-child(2),
+    .shopbox ul li:nth-child(3) {
+        display: inline; /* Make the second and third list items inline */
+        
+    }
+    .boximage1{
+
+      height: 400px;
+      width: 400px;
+      position: absolute;
+      left: 240px;
+      top: 490px;
+      filter: drop-shadow(0px 0px 10px rgb(0,0,0,0.5));
+      display: block;
+    }
+    
+    .boximage2{
+
+        height: 400px;
+        width: auto;
+        position: absolute;
+        top: 490px;
+        right:220px;
+    }
+   .boximage3{
+
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 1140px;
+        margin-left: 250px;
+      
+    }
+    .navbar-brand {
+      position: relative;
+      left: 550px;
+      font-family: initial;
+      font-size:xx-large;
+
+    }
+
+    .boximage4{
+
+        height: 400px;
+        width: auto;
+        position: absolute;
+        top: 1140px;
+        margin-left: 850px;
+    }
+    .boxtext1{
+
+      position: absolute;
+      top: 888px;
+      left: 220px;
+      font-size:xx-large;
+      font-family: bns;
+    }
+    .boxtext2{
+
+        position: absolute;
+        top: 885px;
+        left:830px;
+        font-size:xx-large;
+        font-family: bns;
+    }
+    .boxtext3{
+
+        position: absolute;
+        top:1541px;
+        margin-left:230px;
+        font-size:xx-large;
+        font-family: bns;
+    }
+    .boxtext4{
+
+        position: absolute;
+        top:1536px;
+        margin-left: 835px;
+        font-size:xx-large;
+        font-family: bns;
+    }
+    .boxcontent ul li  {
+      position: relative;
+      top:600px;
+      right: -1111px;
+      text-decoration: none;
+      list-style: none;
+      color: aliceblue;
+      display: inline-block;
+      margin: 3px;  
+    }
+    .boxcontent ul li a{
+      list-style: none;
+      text-decoration: none;
+      color: navajowhite;
+
+
+    }
+      .boxcontent2 ul li  {
+        position: relative;
+        top:-758px;
+        right: -490px;
+        text-decoration: none;
+        list-style: none;
+        color: aliceblue;
+        display: inline-block;
+        margin: 3px;  
+      }
+      .boxcontent2 ul li a{
+        list-style: none;
+        text-decoration: none;
+        color: navajowhite;
+  
+  
+      }
+      .boxcontent3 ul li  {
+        position: relative;
+        top: -181px;
+        left :500px;
+        text-decoration: none;
+        list-style: none;
+        color: aliceblue;
+        display: inline-block;
+        margin: 3px;
+       
+      }
+      .boxcontent3 ul li a{
+        list-style: none;
+        text-decoration: none;
+        color: navajowhite;
+  
+  
+      }
+    .boxcontent4 ul li  {
+      position: relative;
+      top:-247px;
+      right: -1100px;
+      text-decoration: none;
+      list-style: none;
+      color: aliceblue;
+      display: inline-block;
+      margin: px;  
+    }
+    .boxcontent4 ul li a{
+      list-style: none;
+      text-decoration: none;
+      color: navajowhite;
+    }
+    .heading{
+
+      position: absolute;
+      top: 306px;
+      left: 40%;
+    }
+    .About{
+
+      position:absolute;
+      top: 1800px;
+      max-width:90vh;
+     }
+     .aboutcontent{
+
+       
+       font-family: bns;
+       font-size: xx-large;
+       margin-left: 20px;
+       margin-right: 20px;
+
+     }
+
+     
+     
+         
+      
